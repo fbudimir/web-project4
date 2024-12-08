@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: #333;
+}
+
+.cookie-images {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.cookie-image {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	transition: transform 0.3s ease;
+}
+.cookie-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.cookie-image:hover {
+	transform: scale(1.05);
+}
+
+.vote-info,
+.visit-info {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #333;
+}
+
+.vote-info span,
+.visit-info span {
+	font-weight: bold;
+	font-size: 20px;
+	color: #007bff;
+}
